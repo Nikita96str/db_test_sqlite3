@@ -1,17 +1,17 @@
 # db_test_sqlite3
-Тестовое задание выполненное с помощью библиотеки sqlite3
+Job done with sqlite3 library
 
-Дана SQL база с таблицами:
+Given a SQL database with tables:
 1) Users(userId, age)
 2) Purchases (purchaseId, userId, itemId, date)
 3) Items (itemId, price).
 
 
-Необходимо написать SQL запросы для расчета следующих метрик:
+You need to write SQL queries to calculate the following metrics:
 
-А) какую сумму в среднем в месяц тратит:
-- пользователи в возрастном диапазоне от 18 до 25 лет включительно
-- пользователи в возрастном диапазоне от 26 до 35 лет включительно
-Б) в каком месяце года выручка от пользователей в возрастном диапазоне 35+ самая большая
-В) какой товар обеспечивает дает наибольший вклад в выручку за последний год
-Г) топ-3 товаров по выручке и их доля в общей выручке за любой год
+(a) How much does he spend on average per month?
+- users in the age range from 18 to 25 years old inclusive
+- users in the age range from 26 to 35 years old inclusive
+B) in which month of the year the revenue from users in the age range of 35+ is the largest
+C) which product provides the largest contribution to revenue over the past year
+D) top 3 products by revenue and their share in total revenue for any year
